@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Share+Tech+Mono&display=swap');
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 5%;
+}
+.navbar-container div img{
+    cursor: pointer;
+    width: 120px;
+    margin-left: 15px;
+}
+.list{
+     list-style: none;
+}
+.list-item{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+.list-item:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.button-group{
+    display: inline-flex;
+    align-items: center;
+}
+.search-icon{
+    padding: 10px 20px;
+}
+.nav-button{
+    padding: 10px 20px;
+    background-color: #fff;
+    width: 125px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: grey;
+}
+
+.hero-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    display: inline;
+}
+.square{
+    position: absolute;
+    z-index: -5;
+    top: 170%;
+    left: 12.5%;
+}
+.star{
+    position: absolute;
+    top: 25%;
+    left: 90%;
+}
+.globe{
+    position: absolute;
+    left: 50%;
+}
+.hero-container div img{
+   position: absolute;
+   left: 6%;
+   height: 75vh;
+}
+.hero-container-right{
+    width: 50%;
+    justify-content: center;
+    margin-left: 500px;
+}
+.hero-heading{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 200px;
+    top: 150px;
+}
+.hero-description{
+    padding: 50px;
+    position: absolute;
+    right: 250px;
+    top: 200px;
+    width: 35%;
+    text-align: center;
+}
+.hero-description + div{
+    position: absolute;
+    right: 500px;
+    top: 350px;
+}
+.hero-description + div + div{
+    position: relative;
+    top: 450px;
+    left: 300px;    
+}
+.contact-heading{
+    margin-left: 115px;
+    font-size: 20px;
+    color: grey;
+}
+.icons{
+    margin-top: 20px;
+    margin-right: -550px;
+    display: flex;
+}
+.icons span img{
+    padding: 10px;
+    position: relative;
+    height: inherit;
+    display: inline;
+    margin-left: 10px;
+}
+.hero-description + div{
+    margin-right: -70px;
+}
+.button-email, .button-join{
+    margin-left: 20px;
+    background-color: #fff;
+    width: 125px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.button-email:hover,.button-join:hover{
+    background-color: #000000;
+    color: #fff;
+}
